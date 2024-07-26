@@ -1,0 +1,205 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* pages css styling */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer img {
+  width: 16px;
+  height: 19px;
+  top: 783px;
+  left: 1274px;
+  gap: 2rem;
+  opacity: 0px;
+}
+
+.footer-img {
+  display: flex;
+  gap: 1rem;
+}
+
+/* css for page */
+.main-page {
+}
+.main-page img {
+  height: 91vh;
+  width: 100%;
+  opacity: 35%;
+  object-fit: cover;
+  padding-top: 0.4rem;
+}
+
+#hospital-management {
+  position: absolute;
+  top: 10rem;
+  top: 12rem;
+  left: 434px;
+  gap: 0px;
+  opacity: 0px;
+  color: #09529d;
+  font-family: "Poppins";
+  font-size: 3.5rem;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  width: 96%;
+  margin: 0 auto;
+  margin-top: -27rem;
+  position: absolute;
+}
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.subheader {
+  font-size: 25px;
+  color: black;
+  margin-bottom: 2.5rem;
+}
+.line {
+  height: 2px;
+  background-color: #000;
+  position: relative;
+}
+.line span {
+  position: absolute;
+  bottom: -10px;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 0 10px;
+}
+.item {
+  display: inline-block;
+  width: 18%;
+  text-align: center;
+  vertical-align: top;
+  opacity: 50%;
+}
+.item-circle {
+  width: 57px;
+  height: 57px;
+  background-color: #007bff;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+}
+.item-title {
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.item-subtitle {
+  font-size: 20px;
+  color: #666;
+  font-weight: bold;
+
+}
+
+#rap {
+  color: #007bff;
+}
+
+
+
+
+
+
+
+.item1{
+  display: inline-block;
+  width: 18%;
+  text-align: center;
+  vertical-align: top;
+  margin-left: -65rem;
+}
+
+.item-circle1 {
+  width: 57px;
+  height: 57px;
+  background-color: #007bff;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+}
+
+.item-title1 {
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.item-subtitle1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #100303;
+}
+
+.below-circle{
+  display: flex;
+  justify-content:end ;
+  gap: 1.5rem;
+}
+#sub{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* second page css style */
+#how{
+  background-color: #09529D;
+  width: 50%;
+  border-radius: 5px;
+  color: white;
+
+}
+
+.secondH1{
+  color: #09529d;
+  font-size: 40px;
+  margin: auto 0;
+
+}
+
+#work{
+  text-decoration: underline;
+}

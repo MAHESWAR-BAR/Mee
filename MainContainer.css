@@ -1,0 +1,89 @@
+.maincontainer {
+  width: 100%;
+  height: 658px;
+  flex-shrink: 0;
+  background: rgba(9, 82, 157, 0.1);
+  background-image: url("../../public/main-content-img.png");
+}
+.mainletter {
+  width: 100%;
+  height: auto;
+  font-family: Inter;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 200%;
+  margin: auto;
+  padding-top: 102px;
+}
+
+.card {
+  width: 222px;
+  flex-shrink: 0;
+  border-radius: 13px;
+  background: #fff;
+  padding: 15px;
+}
+.card img {
+  height: 5.5rem;
+  width: auto;
+  display: flex;
+  padding-left: 4.5rem;
+}
+.second-div {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  flex-wrap: wrap;
+  
+}
+
+h3 {
+  color: #252b42;
+
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.1px;
+}
+
+p {
+  color: #252b42;
+
+  text-align: justify;
+  font-family: Raleway;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+
+#second-card{
+    line-height: 2px;
+}
+
+.svgDiv{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 0;
+}
+.svg{
+    margin-bottom: 0;
+}
+.maincontainer span{
+  color: #09529D;
+}
+.card a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
+
+}
+.card a:hover{
+  text-decoration: underline;
+}
